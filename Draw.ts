@@ -1,0 +1,12 @@
+import {Rectangle} from './Rectangle';
+import {Square} from './Square';
+import {Circle} from './Circle';
+var rect=new Rectangle(10,2);
+console.log(rect.draw_shape());
+console.log(rect.Area());
+var square=new Square(10);
+console.log(square.draw_shape());
+console.log(square.Area());
+var circle=new Circle(10);
+console.log(circle.draw_shape());
+console.log(circle.Area());
